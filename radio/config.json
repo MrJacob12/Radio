@@ -1,0 +1,5 @@
+{
+    "radio_stations": [{"name": "ESKA", "url": "https://uk3-play.adtonos.com/8102/eska-sosnowiec", "logo": "https://www.eska.pl/media/eska/desktop/images/logo-eska.svg"}, {"name": "Radio ZET","url": "https://n-15-5.dcs.redcdn.pl/sc/o2/Eurozet/live/audio.livx", "logo": "https://gfx-player.radiozet.pl/design/player_radiozet/images/logo.svg"}],
+
+    "token": ""
+}
