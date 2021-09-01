@@ -10,7 +10,7 @@ from .models import *
 config = None
 
 try:
-    config = json.laods(open("config.json", "r"))
+    config = json.loads(open("/home/Discord.js/Radio/radio/config.json", "r").read())
 except:
     exit("config.json not found")
 
@@ -26,5 +26,6 @@ radio_stations = config["radio_stations"]
 
 token = config["token"]
 
+channel = config["channel"]
 
 current_station = CurrentStation(radio_stations[0]["name"], radio_stations[0]["url"], radio_stations[0]["logo"])
